@@ -1,6 +1,12 @@
 # SQl joins
 ---
-Join clause is used to combine rows from two or more tables, based on the related column.
+Join clause is used to combine rows from two or more tables, based on the related column.  
+below are the tables and columns that will be used in the query
+
+![image](/images/tbe%20moses.png)
+
+#### tables orders  
+![image](/images/tbe%20orders.png)
 
 ## Inner join
 The INNER JOIN keyword selects all rows from both the tables as long as the condition is satisfied. This keyword will create the result-set by combining all rows from both the tables where the condition satisfies i.e value of the common field will be the same.
@@ -24,7 +30,8 @@ SELECT *
 FROM table1 INNER JOIN table2
 ON table1.column_name = table2.column_name;
 ```
-![image](/images/innerjoin.png)
+
+![image](/images/inner%20joinf.png)
 
 ## Left join
 The LEFT JOIN keyword returns all records from the left table (table1), and the matching records (if any) from the right table (table2).
@@ -48,8 +55,8 @@ SELECT *
 FROM table1 LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
-![image](/images/leftjoin.png)
 
+![image](/images/left%20join.png)
 ## Right join
 The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records (if any) from the left table (table1).
 
@@ -69,7 +76,7 @@ SELECT *
 FROM table1 RIGHT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
-![image](/images/rightjoinn.png)
+![image](/images/right%20join.png)
 
 ## Full join
 The FULL JOIN keyword returns all records when there is a match in either left (table1) or right (table2) table.
@@ -89,7 +96,7 @@ SELECT *
 FROM table1 FULL JOIN table2
 ON table1.column_name = table2.column_name;
 ```
-![image](/images/fulljoin.png)
+![image](/images/full%20join.png)
 
 # ACID properties
  The ACID properties are meant for the transaction that goes through a different group of tasks, and there we come to see the role of the ACID properties.
